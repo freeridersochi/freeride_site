@@ -1,0 +1,18 @@
+$(document).ready(function(){
+    //menu
+    $('.mobile_menu_btn').click(function(){
+        $('nav').toggle();
+    });
+    $('.adout_us').click(function(){
+        $('.about_us_desc').toggle();
+    });
+    $('.our_bisnes').click(function(){
+        $('.bisness_desc').toggle();
+    });
+    $('.our_location').click(function(){
+        $('.location_desc').toggle();
+    });
+    $('.about_person').click(function(){
+        $('.person_desc').toggle();
+    });          
+});
